@@ -1,0 +1,38 @@
+# Streamlit
+
+> Streamlit is an open-source Python framework that enables data scientists and AI/ML engineers to create interactive data applications with minimal code. It features a unique execution model where scripts rerun from top to bottom when changes occur, allowing for rapid prototyping and development of web-based data apps without requiring frontend expertise.
+
+Streamlit makes building data apps straightforward through its Python-first approach. The library includes widgets for user interaction, data visualization tools, and layout components that can be combined to create sophisticated applications. Apps built with Streamlit can be deployed on Streamlit Community Cloud (free for public apps) or through enterprise options like Streamlit in Snowflake.
+
+## API Reference
+
+- [Text Elements](https://docs.streamlit.io/develop/api-reference/text): Documentation for displaying text, markdown, code blocks and other text-based content in Streamlit apps.
+- [Data Elements](https://docs.streamlit.io/develop/api-reference/data): Methods for displaying and editing data, including dataframes, tables, and JSON.
+- [Chart Elements](https://docs.streamlit.io/develop/api-reference/charts): Functions for creating charts and visualizations, including line charts, bar charts, and maps.
+- [Input Widgets](https://docs.streamlit.io/develop/api-reference/widgets): Interactive components like buttons, sliders, and text inputs for collecting user input.
+- [Layouts and Containers](https://docs.streamlit.io/develop/api-reference/layout): Tools for organizing app content, including columns, expanders, and containers.
+- [Chat Elements](https://docs.streamlit.io/develop/api-reference/chat): Components for building chat-based interfaces in Streamlit apps.
+- [Status Elements](https://docs.streamlit.io/develop/api-reference/status): Functions to display status indicators like progress bars, spinners, and notifications.
+- [Media Elements](https://docs.streamlit.io/develop/api-reference/media): Methods for displaying images, audio, and video content.
+- [API Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet): Concise reference for all Streamlit commands and features.
+
+## Concepts
+
+- [Main Concepts](https://docs.streamlit.io/get-started/fundamentals/main-concepts): Explanation of Streamlit's execution model and core principles.
+- [App Development Flow](https://docs.streamlit.io/develop/concepts/architecture): Understanding how Streamlit's client-server architecture works.
+- [Session State](https://docs.streamlit.io/develop/concepts/state): Guide to managing state across multiple reruns in Streamlit apps.
+- [Caching](https://docs.streamlit.io/develop/concepts/caching): Documentation on optimizing performance through Streamlit's caching mechanisms.
+- [Multipage Apps](https://docs.streamlit.io/develop/concepts/multipage-apps): Creating applications with multiple pages and navigation.
+
+## Tutorials
+
+- [Create an App](https://docs.streamlit.io/get-started/tutorials/create-an-app): Step-by-step tutorial for building your first Streamlit app.
+- [Components Tutorial](https://streamlit-components-tutorial.netlify.app/): Guide to creating custom components for Streamlit.
+- [GitHub Example Repositories](https://github.com/streamlit): Collection of example applications and templates maintained by Streamlit.
+
+## Optional
+
+- [Deployment](https://docs.streamlit.io/deploy): Information about deploying Streamlit apps on various platforms.
+- [Custom Components](https://docs.streamlit.io/develop/concepts/custom-components/intro): Documentation for extending Streamlit with custom frontend components.
+- [Community Components](https://streamlit.io/components): Collection of third-party components created by the Streamlit community.
+- [Component Template Repository](https://github.com/streamlit/component-template): Templates and example code for creating custom Streamlit components.
