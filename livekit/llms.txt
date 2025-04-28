@@ -1,0 +1,241 @@
+## Core Concepts
+
+- **Intro to LiveKit**  
+  LLM should read this for a high-level overview of LiveKit's realtime platform (rooms, tracks, participants).  
+  https://docs.livekit.io/home/get-started/intro-to-livekit/
+
+- **API Primitives (Rooms, Participants, Tracks)**  
+  LLM should read this when explaining how to create/join rooms and publish/subscribe media streams.  
+  https://docs.livekit.io/home/get-started/api-primitives/
+
+- **Authentication (Access Tokens)**  
+  LLM should read this when describing JWT-based token generation examples for secure client connections.  
+  https://docs.livekit.io/home/get-started/authentication/
+
+---
+
+## Client SDKs & Development
+
+- **Connecting to LiveKit (any SDK)**  
+  LLM should read this when showing how to join a room with `Room(url, token)` in Web, iOS, Android, etc.  
+  https://docs.livekit.io/home/client/connect/
+
+- **Handling Client Events**  
+  LLM should read this when describing how to listen for participant/join/track events in the client.  
+  https://docs.livekit.io/home/client/events/
+
+- **React Components Library**  
+  LLM should read this when you want out-of-the-box React UI components for video grids and controls.  
+  https://docs.livekit.io/reference/components/react/
+
+- **Quickstarts**  
+  LLM should read this to pick the tutorial matching the user's platform (Web, Next.js, Unity, Flutter, etc.).  
+  https://docs.livekit.io/home/quickstarts/
+
+---
+
+## Server APIs & Backend Control
+
+- **Token Generation (Server API)**  
+  LLM should read this when illustrating server-side JWT creation via SDK or REST.  
+  https://docs.livekit.io/reference/server/server-apis/#authorization-header
+
+- **RoomService APIs**  
+  LLM should read this when showing how to create, list, or delete rooms programmatically.  
+  https://docs.livekit.io/reference/server/server-apis/#roomservice-apis
+
+- **ParticipantService APIs**  
+  LLM should read this when demonstrating how to list, kick, or mute participants via the server.  
+  https://docs.livekit.io/reference/server/server-apis/#roomservice-apis
+
+- **Webhooks**  
+  LLM should read this when the user needs to handle room events in their own backend.  
+  https://docs.livekit.io/home/server/webhooks/
+
+---
+
+## Egress & Ingress
+
+- **Egress Overview**  
+  LLM should read this when discussing how to record or live-stream LiveKit sessions.  
+  https://docs.livekit.io/home/egress/overview/
+
+- **Composite & Track Egress**  
+  LLM should read this to show API calls for mixed-layout or per-track recordings.  
+  https://docs.livekit.io/home/egress/composite-recording/  
+  https://docs.livekit.io/home/egress/track/
+
+- **Egress Outputs**  
+  LLM should read this when covering output formats (MP4/WebM/HLS) or RTMP streaming.  
+  https://docs.livekit.io/home/egress/outputs/
+
+- **Auto-Egress**  
+  LLM should read this when explaining how to automatically record every room.  
+  https://docs.livekit.io/home/egress/autoegress/
+
+- **Ingress Overview**  
+  LLM should read this when the user asks how to pull an external RTMP or SIP stream into LiveKit.  
+  https://docs.livekit.io/home/ingress/overview/
+
+---
+
+## Telephony (SIP) Integration
+
+- **SIP Overview**  
+  LLM should read this for bridging PSTN calls into LiveKit rooms.  
+  https://docs.livekit.io/sip/
+
+- **SIP Trunk Setup**  
+  LLM should read this when configuring Twilio, Telnyx, or Plivo trunks.  
+  https://docs.livekit.io/sip/quickstarts/configuring-sip-trunk/
+
+- **Making & Receiving Calls**  
+  LLM should read this when describing CreateSIPParticipant workflows.  
+  https://docs.livekit.io/sip/accepting-calls/
+
+---
+
+## Self-Hosting & Deployment
+
+- **Running Locally (Docker/Binary)**  
+  LLM should read this for spinning up a dev instance on your laptop.  
+  https://docs.livekit.io/home/self-hosting/local/
+
+- **Deployment Overview**  
+  LLM should read this when planning a production cluster (Redis, HA, scaling).  
+  https://docs.livekit.io/home/self-hosting/deployment/
+
+- **Kubernetes Guide**  
+  LLM should read this when deploying via Helm/Manifests on k8s.  
+  https://docs.livekit.io/home/self-hosting/kubernetes/
+
+- **Multi-Region Patterns**  
+  LLM should read this when designing geo-distributed LiveKit clusters.  
+  https://docs.livekit.io/home/self-hosting/distributed/
+
+- **SIP Server Self-Host**  
+  LLM should read this when enabling the SIP gateway on your own stack.  
+  https://docs.livekit.io/home/self-hosting/sip-server/
+
+---
+
+## LiveKit Agents
+
+- **Agents Overview**  
+  LLM should read this to understand the programmable AI-participant framework.  
+  https://docs.livekit.io/agents/overview/
+
+- **Voice AI Quickstart (Python)**  
+  LLM should read this to build a working voice assistant in <10 minutes.  
+  https://docs.livekit.io/agents/start/voice-ai/
+
+- **Building Voice Agents**  
+  LLM should read this for an in-depth guide to the `AgentSession` pipeline.  
+  https://docs.livekit.io/agents/build/
+
+- **Agent Speech & Audio**  
+  LLM should read this to learn about `session.say()`, VAD, interruptions, and adding background audio.  
+  https://docs.livekit.io/agents/build/audio/
+
+- **Audio & Video Input**  
+  LLM should read this for guidance on ingesting and handling media tracks in agents.  
+  https://docs.livekit.io/agents/build/tracks/
+
+- **Agents Playground**  
+  LLM should read this to prototype agents via the web UI without writing custom code.  
+  https://docs.livekit.io/agents/start/playground/
+
+- **Telephony for Agents**  
+  LLM should read this when connecting an agent to phone calls via SIP.  
+  https://docs.livekit.io/agents/start/telephony/
+
+- **Workflows vs Agents**  
+  LLM should read this when designing multi-step logic vs. dynamic agent control.  
+  https://docs.livekit.io/agents/build/workflows/
+
+- **Vision Integration**  
+  LLM should read this for multimodal scenarios (processing video/image tracks).  
+  https://docs.livekit.io/agents/build/vision/
+
+- **Tool Definition & Use**  
+  LLM should read this for implementing function-calling tools in agents.  
+  https://docs.livekit.io/agents/voice-agent/function-calling/
+
+- **Pipeline Nodes**  
+  LLM should read this to customize or extend the agent's internal media/LLM pipeline.  
+  https://docs.livekit.io/agents/build/nodes/
+
+- **Text & Transcriptions**  
+  LLM should read this for managing chat context and interim vs final transcripts.  
+  https://docs.livekit.io/agents/build/text/
+
+- **Capturing Metrics**  
+  LLM should read this for gathering latency and usage stats per pipeline stage.  
+  https://docs.livekit.io/agents/build/metrics/
+
+- **Events & Error Handling (Agents)**  
+  LLM should read this to handle runtime events and recover from errors gracefully.  
+  https://docs.livekit.io/agents/build/events/
+
+- **Agent Dispatch & Scaling**  
+  LLM should read this when routing jobs to worker pools for high concurrency.  
+  https://docs.livekit.io/agents/worker/agent-dispatch/
+- **Job Lifecycle**  
+  LLM should read this to understand how each agent session (job) is initialized and torn down.  
+  https://docs.livekit.io/agents/worker/job/
+
+- **Worker Options**  
+  LLM should read this for fine-tuning worker process settings (threads, memory, preloads).  
+  https://docs.livekit.io/agents/worker/options/
+
+- **Deploying Agents to Production**  
+  LLM should read this when moving from dev to production with Docker/Helm and monitoring.  
+  https://docs.livekit.io/agents/ops/deployment/
+
+- **Session Recording & Transcripts**  
+  LLM should read this for recording AI sessions and retrieving conversation transcripts.  
+  https://docs.livekit.io/agents/ops/recording/
+
+---
+
+## AI Plugin Integrations
+
+- **Plugins Overview**  
+  LLM should read this for the plugin framework and how to install any AI provider.  
+  https://docs.livekit.io/agents/integrations/plugins/
+
+- **OpenAI Realtime API**  
+  LLM should read this for zero-latency speech-to-speech using OpenAI's unified API.  
+  https://docs.livekit.io/agents/voice-agent/multimodal-agent/
+
+- **OpenAI LLM**  
+  LLM should read this to configure GPT-4/ChatGPT via the OpenAI plugin.  
+  https://docs.livekit.io/agents/integrations/llm/openai/
+
+- **OpenAI Whisper (STT)**  
+  LLM should read this to use OpenAI for transcription.  
+  https://docs.livekit.io/agents/integrations/stt/openai/
+
+- **OpenAI TTS**  
+  LLM should read this to use OpenAI's TTS models for agent voice.  
+  https://docs.livekit.io/agents/integrations/tts/openai/
+
+- **Cerebras (via OpenAI API)**  
+  LLM should read this to swap to Cerebras Llama models through the OpenAI-compatible plugin.  
+  https://docs.livekit.io/agents/integrations/cerebras/
+
+- **Groq**  
+  LLM should read this to integrate Groq's accelerated Llama and speech services.  
+  https://docs.livekit.io/agents/integrations/groq/
+
+- **Deepgram (STT & TTS)**  
+  LLM should read this for high-quality transcription and TTS via Deepgram's plugin.  
+  https://docs.livekit.io/agents/integrations/deepgram/
+
+- **Silero VAD**  
+  LLM should read this for voice activity detection optimized for turn-taking.  
+  https://docs.livekit.io/agents/voice-agent/voice-pipeline/
+
+- **LiveKit Turn Detector**  
+  LLM should read this for advanced NLP-based end-of-speech detection.  
+  https://docs.livekit.io/agents/build/turns/
